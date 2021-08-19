@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "opensans-regular";
+}
+
+a{
+    text-decoration: none;
+}
+img{
+    filter: invert(70%);
+}
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/invest.jpg);
+    background-position: center;
+    background-size: cover;
+}
+header{
+    width: 100%;
+    height: 70px;
+    background-color: #FAF8F8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+}
+.header-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-left-lang{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 40px;
+    margin-left: 40px;
+    background-color: #E5EAFF;
+    border-radius: 5px;
+}
+.header-left-icon{
+    margin-left: 25px;
+}
+.header-left-icon img{
+    filter: invert(0);
+    width: 40px;
+}
+.russia{
+    width: 20px;
+    filter: invert(0);
+}
+.header-left-lang img{
+    width: 20px;
+}
+.header-left-lang span{
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 5px;
+    margin-right: 3px;
+}
+.header-right-link img{
+    width: 20px;
+    margin: 0 10px;
+    transition: 300ms ease;
+}
+.header-right-link img:hover{
+    filter: invert(0);
+}
+.header-right-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px;
+}
+.room{
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    padding: 10px 0;
+    margin-right: 20px;
+    font-size: 12px;
+    color: #AFB3DF;
+    background-color: #E5EAFF;
+    border-radius: 5px;
+    transition: 300ms ease;
+}
+.room:hover{
+    background-color: #e3e3f5;
+}
+.regist{
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    padding: 10px 0;
+    margin-right: 20px;
+    font-size: 12px;
+    color: #fff ;
+    background-color: #325EFB;
+    border-radius: 5px;
+    transition: 300ms ease;
+}
+.regist:hover{
+    background-color: #6083ff;
+}
+/* ----------------------------- */
+.wrap{
+    display: flex;
+}
+aside{
+    width: 100px;
+    height: 100vh ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #FAF8F8;
+}
+.link img{
+    width: 20px;
+    transition: 200ms ease;
+}
+.link img:hover{
+    filter: invert(0);
+}
+.link{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 15px 0;
+}
+.invisible{
+    display: none;
+    position: absolute;
+    top: -10px;
+    left: 40px;
+    font-size: 12px;
+    content: 'Главная';
+    background-color: #f0f0f0;
+    color: #000;
+    font-weight: 500;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: 3s ease;
+}
+.link:hover .invisible{
+    display: block;
+}
+
+/* ------------------------------- */
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+main{
+    margin-top: 190px;
+}
+.title{
+    width: 700px;
+    font-size: 30px;
+    font-family: "open-sans-bold";
+    margin-bottom: 15px;
+} 
+.line{
+    width: 43px;
+    height: 4px;
+    background-color: #2F5CFC;
+    border-radius: 50px;
+}
+.info{
+    color: #9196C0;
+    font-size: 12px;
+    width: 700px;
+    margin: 15px 0;
+}
+.small-info{
+    color: #9196C0;
+    font-size: 12px;
+}
+.main-bottom{
+    margin-top: 55px;
+}
+.open-check{
+    font-size: 11px;
+    font-weight: 600;
+    padding: 10px 25px;
+    background-color: #325EFB;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 20px;
+    transition: 300ms ease;
+}
+.open-check:hover{
+    background-color: #6083ff;
+}
+.enter-room{
+    font-size: 11px;
+    font-weight: 600;
+    padding: 10px 20px;
+    background-color: #E5EAFF;
+    color: #000;
+    border-radius: 5px;
+    transition: 300ms ease;
+}
+.enter-room:hover{
+    background-color: #e3e3f5;
+}
